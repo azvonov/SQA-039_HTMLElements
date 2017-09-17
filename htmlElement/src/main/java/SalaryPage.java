@@ -9,9 +9,6 @@ import ru.yandex.qatools.allure.annotations.Step;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementLocatorFactory;
 
-/**
- * Created by Azvonov on 19.05.2014.
- */
 public class SalaryPage {
 
     WebDriver driver;

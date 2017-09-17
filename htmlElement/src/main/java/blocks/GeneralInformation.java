@@ -1,16 +1,11 @@
 package blocks;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import ru.yandex.qatools.htmlelements.element.CheckBox;
 import ru.yandex.qatools.htmlelements.element.HtmlElement;
 import ru.yandex.qatools.htmlelements.element.TextInput;
 
-/**
- * Created by Azvonov on 19.05.2014.
- */
 @FindBy(id="generalInfo")
 public class GeneralInformation extends HtmlElement {
 
@@ -30,9 +25,5 @@ public class GeneralInformation extends HtmlElement {
     public GeneralInformation selectEmptFederal(){
         exemptFederal.select();
         return this;
-    }
-
-    public <X> X getScreenshotAs(OutputType<X> outputType) throws WebDriverException {
-        return null;
     }
 }

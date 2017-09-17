@@ -12,6 +12,7 @@ import ru.yandex.qatools.htmlelements.element.TextInput;
 /**
  * Created by Azvonov on 19.05.2014.
  */
+
 @FindBy(id = "heading")
 public class SelectCalculationDateAndState extends HtmlElement {
 
